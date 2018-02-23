@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that was
+introduced?
+It helped me because i did not have to manually alternate between two files to find
+the bug.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+Because we can always look back at what the system was doing earlier and pin-point
+the problem areas easily.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+Manual Commits:
+Pros:
+We can ensure that the commit size is neither too big nor small and that it is just 
+the right size which adheres to one logical purpose.
+Cons:
+We might forget to commit for a really long time, in which case it becomes difficult
+to understand all the changes in one go.
+Automatic Commits:
+Pros:
+There is no chance for a user error in this case because the system automatically keeps
+creating new commits at a set interval.
+Cons:
+There might be too many redundant and illogical commits.
+
+Why do you think some version control systems, like Git, allow saving multiple files 
+in one commit, while others, like Google Docs, treat each file separately?
+Version controls systems like Git are mainly used for code storage and sharing where
+we will require multiple files to work together for the desired output, whereas 
+systems like Google Docs are mostly used for document tracking and sharing where we
+will not be dealing with interconnected files.
+
+How can you use the commands git log and git diff to view the history of files?
+git log will display all the commits done in the repository in the reverse chronological
+order.
+git diff <commit id1> <commit id2> will show the insertions and deletions that happened
+in commit id2 in comparison to commit id1.
+We use git log to display all the commits so we can use the respective commit ids in 
+git diff.
+
+How might using version control make you more confident to make changes that could
+break something?
+We can make bold changes since we can look back at any point of time what our previous
+commits looked like and we can also use git checkout to run the desired commit again.
+We need not be bothered to have a manual backup before each and every change.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to use Git for the future projects that i create.
+
+
+
+
+
+
+
+
