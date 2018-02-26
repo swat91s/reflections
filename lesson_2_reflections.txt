@@ -13,5 +13,7 @@ The staging area shows us which files are tracked and untracked. We can also see
 most recent commit using the command 'git diff --staged'. This will give us an idea if all the changes correspond to one logical change
 or if they can be committed as two different commits.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If we want to try out an experimental feature while still maintaining a working version of the code then we can use git branches.
 
 
