@@ -8,3 +8,10 @@ The staging area is different from the working directory in the sense that it se
 to the repository in a single commit. It is useful to make logical commits and serves as a place where we can review the files and 
 remove unnecessary ones before committing.
 
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area shows us which files are tracked and untracked. We can also see the changes in the staging area with respect to the 
+most recent commit using the command 'git diff --staged'. This will give us an idea if all the changes correspond to one logical change
+or if they can be committed as two different commits.
+
+
+
