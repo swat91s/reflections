@@ -16,4 +16,9 @@ or if they can be committed as two different commits.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If we want to try out an experimental feature while still maintaining a working version of the code then we can use git branches.
 
+How do the diagrams help you visualize the branch structure?
+Diagrams are easier as we can see in a pictorial representation the relationship between the various commit histories of various branches.
+By including arrows to the parent of each commit, we can have a complete understanding of reachability as well.
+
+
 
