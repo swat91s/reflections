@@ -20,5 +20,10 @@ How do the diagrams help you visualize the branch structure?
 Diagrams are easier as we can see in a pictorial representation the relationship between the various commit histories of various branches.
 By including arrows to the parent of each commit, we can have a complete understanding of reachability as well.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+In the first place a branch was created to be able to add a new feature or remove a bug. Once that is completed then we can merge the two
+branches for easy trackability and to avoid confusion. The diagram is for better pictorial representation.
+
+
 
 
