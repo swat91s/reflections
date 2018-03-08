@@ -24,6 +24,9 @@ What is the result of merging two branches together? Why do we represent it in t
 In the first place a branch was created to be able to add a new feature or remove a bug. Once that is completed then we can merge the two
 branches for easy trackability and to avoid confusion. The diagram is for better pictorial representation.
 
-
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging is useful in cases where the changes are in entirely different places in the code. If the case was an always manual 
+merge, then the user would have to validate the differences between the two commits each time. Since git does automatic merging, it will prompt 
+the user if it stumbles upon any conflict and then the user can kick in to resolve those.
 
 
