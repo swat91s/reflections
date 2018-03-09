@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+If multiple people are collaborating on a project then it makes sense to use a common remote repository.
+It is also useful if you will be using multiple systems during the course of your project as the code can 
+be accessed from anywhere with an internet connection.
