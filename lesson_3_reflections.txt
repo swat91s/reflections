@@ -16,3 +16,7 @@ Fork - Used to clone a repository directly onto the github servers without creat
 Clone - Used to copy the files and the tracking history of a local/remote repository onto your local machine.
 Branches - Used to create a separate copy of code to work on without meddling up the original code.
 If everything goes fine then we can merge it with the original code(branch).
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It is useful as it helps us to compare our local repository with the remote repository without the use of 
+internet.
