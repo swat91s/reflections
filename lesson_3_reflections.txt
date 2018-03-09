@@ -2,3 +2,11 @@ When would you want to use a remote repository rather than keeping all your work
 If multiple people are collaborating on a project then it makes sense to use a common remote repository.
 It is also useful if you will be using multiple systems during the course of your project as the code can 
 be accessed from anywhere with an internet connection.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date 
+with your remote repository?
+Manual pulling is useful because if git was automatically updating our local repository with the content
+of the remote repository, then we might get unpleasant surprises when we are in the middle of working on a
+new feature. Automatic pulling might be a problem when more than one person is working on the same project
+trying to add two different features or one person adding a new feature and the other person trying to fix
+a bug.
