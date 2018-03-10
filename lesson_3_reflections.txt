@@ -20,3 +20,10 @@ If everything goes fine then we can merge it with the original code(branch).
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It is useful as it helps us to compare our local repository with the remote repository without the use of 
 internet.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git or GitHub collaboration might take place through the use of emails or other cloud based
+services. In some cases we might even be able to share our work using other file sharing methods.
+Definitely using GitHub to collaborate is easier as it gives a lot of flexibility when more than a single
+person is working on the same project. It has a good version control mechanism. If we use other methods 
+then we might have to take care of all the actions that GitHub does automatically for us.
