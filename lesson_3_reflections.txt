@@ -27,3 +27,17 @@ services. In some cases we might even be able to share our work using other file
 Definitely using GitHub to collaborate is easier as it gives a lot of flexibility when more than a single
 person is working on the same project. It has a good version control mechanism. If we use other methods 
 then we might have to take care of all the actions that GitHub does automatically for us.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits 
+does each approach have?
+Making changes in Master:
+If the change is very small, like just fixing a typo or changing a variable name or if only one person is working 
+on a minor change or something that requires very little effort and time and also if we are sure that the change 
+will not break the code.
+In this case, it is beneficial as in it eliminates the effort that goes into creating and tracking a branch
+before merging it into master.
+Making changes after creating a branch:
+This is useful in introducing new features or debugging a major issue and also when multiple people need to 
+collaborate on the same project without hindering the work of others.
+In this case, it is beneficial as in it ensures that there is a proper working version of the code always and
+adds the flexibility of multiple people being able to work on a single project.
